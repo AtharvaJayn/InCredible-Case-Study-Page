@@ -3,4 +3,4 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
     plugins:[react(),tailwindcss()],
-    base: proces.env.VITE_BASE_PATH || '/InCredible-Case-Study-Page'});
+    base: process.env.VITE_BASE_PATH || '/InCredible-Case-Study-Page'});
