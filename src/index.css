@@ -1,0 +1,29 @@
+@import "tailwindcss";
+:root{font-family:Manrope,sans-serif;color:#171a2e;background:#fffdf9;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-width:320px}button,a{-webkit-tap-highlight-color:transparent}::selection{background:#b4b7f7;color:#1a2b6b}.font-display{font-family:"Cabinet Grotesk",Manrope,sans-serif}.dot-grid{background-image:radial-gradient(rgba(255,255,255,.22) .7px,transparent .7px);background-size:14px 14px}
+/* Global lavender ambient background */
+body {
+  background-color: #fffdf9;
+  background-image:
+    radial-gradient(
+      ellipse 650px 480px at 8% 12%,
+      rgba(180, 183, 247, 0.24),
+      transparent 72%
+    ),
+    radial-gradient(
+      ellipse 750px 550px at 92% 28%,
+      rgba(180, 183, 247, 0.22),
+      transparent 70%
+    ),
+    radial-gradient(
+      ellipse 650px 500px at 18% 58%,
+      rgba(232, 227, 247, 0.75),
+      transparent 72%
+    ),
+    radial-gradient(
+      ellipse 800px 550px at 88% 82%,
+      rgba(180, 183, 247, 0.2),
+      transparent 72%
+    );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
